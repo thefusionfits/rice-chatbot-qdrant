@@ -1,14 +1,14 @@
 import streamlit as st
 from PIL import Image
-from src.ragchain_langchain import qa_chain  # must expose qa_chain
-from src.retriever import retrieve_chunks
+from ragchain_langchain import qa_chain  # must expose qa_chain
+from retriever import retrieve_chunks
 # if needed
 
 # Streamlit page setup
 st.set_page_config(page_title="🌾 Rice Farming Agent", layout="wide")
 
 # Banner
-img = Image.open("assets/Rice Farming.png")
+img = Image.open("Rice Farming.png")
 st.image(img.resize((700, 400)))
 st.markdown("## 🌾 Rice Farming Assistance Agent")
 st.divider()
