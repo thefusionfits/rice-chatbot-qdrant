@@ -3,6 +3,7 @@ from PIL import Image
 from ragchain_langchain import qa_chain  # must expose qa_chain
 from retriever import retrieve_chunks
 # if needed
+import os
 
 # Streamlit page setup
 st.set_page_config(page_title="🌾Rice Farming Agent", layout="wide")
