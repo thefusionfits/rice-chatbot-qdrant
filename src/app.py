@@ -6,6 +6,8 @@ from retriever import retrieve_chunks
 
 # Streamlit page setup
 st.set_page_config(page_title="🌾Rice Farming Agent", layout="wide")
+img_path = os.path.join(os.path.dirname(_file_), "Rice_Farming.png")
+img = Image.open(img_path)
 st.markdown("## 🌾 Rice Farming Assistance Agent")
 
 
