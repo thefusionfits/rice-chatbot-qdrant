@@ -8,10 +8,6 @@ from retriever import retrieve_chunks
 st.set_page_config(page_title="🌾 Rice Farming Agent", layout="wide")
 
 # Banner
-img = Image.open("Rice Farming.png")
-st.image(img.resize((700, 400)))
-st.markdown("## 🌾 Rice Farming Assistance Agent")
-st.divider()
 
 # Init session
 if "chat_log" not in st.session_state:
