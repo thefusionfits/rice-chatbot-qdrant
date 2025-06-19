@@ -5,7 +5,9 @@ from retriever import retrieve_chunks
 # if needed
 
 # Streamlit page setup
-st.set_page_config(page_title="🌾 Rice Farming Agent", layout="wide")
+st.set_page_config(page_title="🌾Rice Farming Agent", layout="wide")
+st.markdown("## 🌾 Rice Farming Assistance Agent")
+
 
 # Banner
 
